@@ -1,0 +1,11 @@
+## install cnpm (root)
+
+$ npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+## install hexo (root)
+
+$ cnpm install hexo-cli -g
+
+## git support 
+
+$ cnpm install hexo-deployer-git --save
