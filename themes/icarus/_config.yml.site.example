@@ -3,23 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Exception{^_^}
-subtitle: 
-description:
-author: ykswang
-author_title: '测试 & 码农'
-avatar: css/images/eric.jpg
-location: 'Hangzhou, China'
-follow: https://github.com/ykswang/
+title: Icarus
+subtitle:
+description: Hexo theme - Icarus
+author: PPOffice
+author_title: 'Web Developer & Designer'
+avatar: css/images/avatar.png
+location: 'Harbin, China'
+follow: https://github.com/ppoffice/
 email: # Your email (Used to show Gravatar).
-language: zh-CN
+language: en
 timezone:
-since: 2016 # The start year showing in your copyright section.
+since: 2000 # The start year showing in your copyright section.
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.eric-is.me
-root: /
+url: http://ppoffice.github.io/hexo-theme-icarus
+root: /hexo-theme-icarus/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -46,7 +46,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  tab_replace: true
+  tab_replace:
 
 # Category & Tag
 default_category: uncategorized
@@ -71,10 +71,10 @@ pagination_dir: page
 theme: icarus
 
 # Disqus
-# disqus_shortname: ykswang
+# disqus_shortname: hexo-theme-icarus
 
 # DuoShuo
-duoshuo_shortname: eric-is
+# duoshuo_shortname: hexo-theme-icarus
 
 # Swiftype
 # swiftype_install_key: XXX_XXXXXXXXXXXXXXXX
@@ -83,6 +83,5 @@ duoshuo_shortname: eric-is
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/ykswang/ykswang.github.io.git
-#  branch: gh-pages
-  branch: master
+  repository: https://github.com/ppoffice/hexo-theme-icarus.git
+  branch: gh-pages
